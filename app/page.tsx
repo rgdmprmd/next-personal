@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import TypewriterComponent from "typewriter-effect";
+
 import { HeaderComponent } from "@/components/header";
 import { usePathname } from "next/navigation";
 
@@ -28,43 +29,28 @@ export default function Home() {
 			</div>
 
 			<div className="mb-32 grid text-center md:grid-cols-2 lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-				<Link href="/about" className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
+				<Link href="/not-found" className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
 					<h2 className={`mb-3 text-2xl font-semibold`}>
 						About <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">-&gt;</span>
 					</h2>
 					<p className={`m-0 max-w-[30ch] text-sm opacity-50`}>{`I'd love intersection between art and technology.`}</p>
 				</Link>
 
-				<Link
-					href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-					className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
+				<Link href="/not-found" className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
 					<h2 className={`mb-3 text-2xl font-semibold`}>
 						Projects <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">-&gt;</span>
 					</h2>
 					<p className={`m-0 max-w-[30ch] text-sm opacity-50`}>{`Some of my latest works that I'm proud of.`}</p>
 				</Link>
 
-				<Link
-					href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-					className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
+				<Link href="/not-found" className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
 					<h2 className={`mb-3 text-2xl font-semibold`}>
 						Blogs <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">-&gt;</span>
 					</h2>
 					<p className={`m-0 max-w-[30ch] text-sm opacity-50`}>{`Writing makes me learn what I've learn.`}</p>
 				</Link>
 
-				<Link
-					href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-					className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
+				<Link href="/not-found" className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
 					<h2 className={`mb-3 text-2xl font-semibold`}>
 						Contact <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">-&gt;</span>
 					</h2>
